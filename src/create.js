@@ -33,7 +33,7 @@ const Create = () => {
       //   history.push('/');
       // })
         console.log(JSON.stringify(blog))
-    fetch('http://localhost:3000/blogs', {
+    fetch('https://blogreactserver.herokuapp.com/blogs', {
       method: 'POST',
       body: JSON.stringify(blog),
       headers: {
